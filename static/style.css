@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+  }
+  .content
+  {
+    background-color: white;
+    padding: 30px;
+    margin: 200px;
+    margin-top: 40px;
+  
+  
+  }
+  
+  .search
+  {
+    border-radius: 3px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    margin-top: 2px;
+  }
+  
+  .ans
+  {
+    color:red;
+  }
