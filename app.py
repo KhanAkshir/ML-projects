@@ -13,12 +13,12 @@ Ridge=pickle.load(open('models/Ridge.pkl','rb'))
 scaler=pickle.load(open('models/scaler1.pkl','rb'))
 
 #Route for home page
-# @cross_origin()
+
 @app.route('/',methods=["GET"])
 def index():
     return render_template('index.html')
 
-# @cross_origin()
+
 @app.route("/predictdata",methods=["GET","POST"])
 def predict_datapoint():
     if request.method=='POST':
